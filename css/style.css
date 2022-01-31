@@ -34,24 +34,29 @@
         }
         
         .header__logo {
-            width: 30px;
+            width: 35px;
+            padding-right: 10px;
         }
         
         .header__title {
-            font-size: 1.1rem;
+            display: flex;
+            width: 30px;
+            font-size: 1.3rem;
+            text-transform: uppercase;
             color: white;
             font-weight: bold;
+            line-height: 1.2;
         }
         
         .header__article {
             color: white;
             text-align: right;
-            background-color: rgba(255, 255, 255, 0.212);
+            background-color: rgba(134, 117, 117, 0.5);
+            padding: 20px 10px 20px 150px;
         }
         
         .header__article-title {
             font-size: 1.3rem;
-            padding: 10px;
         }
         
         .header__article-subtitle {
@@ -62,14 +67,102 @@
         .header__article-content {
             font-size: 0.8rem;
             line-height: 1.5;
-            text-shadow: 1px 2px 2px black;
+            text-shadow: 0 0 4px #333;
         }
         
-        .header__menu {}
+        .header__menu {
+            text-align: right;
+        }
         
-        .header__menu-item {}
+        .header__menu-item {
+            margin-left: 20px;
+        }
         
         .header__menu-item {
             color: rgb(250, 250, 250);
+            text-shadow: 0 0 4px #333;
             text-decoration: none;
+        }
+        /*right side*/
+        
+        .main-articles {
+            display: flex;
+            flex-wrap: wrap
+        }
+        
+        .main-article {
+            width: 50%;
+            border: 1px solid #eaeaea;
+            padding: 20px;
+        }
+        
+        .main__title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        
+        .main__article-tags {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .main__article-tag {
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: white;
+            background-color: #98DC62;
+            padding: 3px;
+        }
+        
+        .main__article-tag--team {
+            background-color: #DC5E53;
+        }
+        
+        .main__article-tag--work {
+            background-color: #0766F0;
+        }
+        
+        .main__article-title {
+            font-size: 1rem;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        
+        .main__article-info {
+            display: flex;
+            align-items: center;
+            font-size: 0.6rem;
+            margin-bottom: 20px;
+        }
+        
+        .main__article-author-image {
+            width: 20px;
+            margin-right: 5px;
+        }
+        
+        .main__article-author-name {
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        
+        .main__article-date {
+            color: rgb(155, 155, 155);
+        }
+        
+        .main__article-content {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            padding-bottom: 20px;
+            ;
+        }
+        
+        .main__article-link {
+            font-size: 0.9rem;
+        }
+        
+        .main__article-link:hover {
+            color: rgb(16, 16, 136)
         }
